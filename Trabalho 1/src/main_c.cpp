@@ -41,6 +41,8 @@ vector<Control*> objetos;
 vector<signed short> numeros_dct;
 vector<signed short> quantizacao;
 
+
+//desenha toda interface principal que nao seja um controle
 void CriaBarra(){
     color(0, 0, 0);
     line(INIT_X, MIDDLE_Y-200, INIT_X, MIDDLE_Y+200);
@@ -67,6 +69,8 @@ void CriaBarra(){
     color(0,0,0);
 }
 
+
+//limpa os vetores pra iniciar uma nova aplicaçao
 void Reiniciar(){
     amostras.clear();
     dct.clear();
@@ -74,6 +78,7 @@ void Reiniciar(){
     diferencas.clear();
     qtd_amostras = 0;
     num_amostras.clear();
+    quantizacao.clear();
 }
 
 void ler_arq(){
@@ -87,9 +92,12 @@ void ler_arq(){
         }
         fread(&qtd_amostras, sizeof(unsigned int), 1, f);
         distancia = 600/qtd_amostras;
+
+        //variavel '' num_amostras '' usada pra printar na tela a qtd de amostras
         ss << qtd_amostras;
         num_amostras = ss.str();
 
+        //le cada amostra e coloca no vetor de amostras
         for(int i = 0; i < qtd_amostras; i++){
             fread(&num, sizeof(signed short), 1, f);
             //tamanho da reta coincidiu com o MIDDLE_Y
@@ -112,17 +120,19 @@ void Gravar(){
     fclose(f);
 }
 
+//cria objetos funcionais da tela
 void CriaMenu(){
-    objetos.push_back(new Botao(20, 100, "CARREGAR"));
-    objetos.push_back(new Botao(130, 100, "SALVAR"));
-    objetos.push_back(new Botao(240, 100, "APLICAR"));
-    objetos.push_back(new Botao(350, 100, "RANDOM"));
-    objetos.push_back(new CheckBox(720, 650, "Originais"));
-    objetos.push_back(new CheckBox(720, 600, "Reconstruidos"));
-    objetos.push_back(new CheckBox(720, 550, "Diferencas"));
-    objetos.push_back(new CheckBox(720, 500, "Lena 2D"));
-
+    objetos.push_back(new Botao(INIT_X, 100, "CARREGAR"));
+    objetos.push_back(new Botao(INIT_X + 110, 100, "SALVAR"));
+    objetos.push_back(new Botao(INIT_X + 220, 100, "APLICAR"));
+    objetos.push_back(new Botao(INIT_X + 330, 100, "RANDOM"));
+    objetos.push_back(new CheckBox(ALTURA, LARGURA - 630, "Originais"));
+    objetos.push_back(new CheckBox(ALTURA, LARGURA - 680, "Reconstruidos"));
+    objetos.push_back(new CheckBox(ALTURA, LARGURA - 730, "Diferencas"));
+    objetos.push_back(new CheckBox(ALTURA, LARGURA - 780, "Lena 2D"));
 }
+
+//traca retas entre bolinhas
 void TracaRetas(vector<Control*> v, float r, float g, float b){
     if(v.size() > 2){
         color(r, g, b);
@@ -133,18 +143,21 @@ void TracaRetas(vector<Control*> v, float r, float g, float b){
     }
 }
 
+//Printa qualquer objeto que seja um controle (bola, checkbox, botao)
 void Printar(vector<Control*> v){
     for(int i = 0; i < v.size(); i++){
         v[i]->render();
     }
 }
 
+//Coloca os controles visiveis
 void SetVisible(vector<Control*> v, bool b){
     for(int i = 0; i < v.size(); i++){
         v[i]->visible = b;
     }
 }
 
+//ativa e desativa checkbox
 void SetSelected(vector<Control*> v, bool b, char* s){
     for(int i = 0; i < v.size(); i++){
         if(v[i]->label.compare(s) == 0){
@@ -154,6 +167,7 @@ void SetSelected(vector<Control*> v, bool b, char* s){
     }
 }
 
+//verifica colisao com qualquer objeto
 int ColideObjeto(vector<Control*> v, int x, int y){
     for(int i = 0; i < v.size(); i++){
         if(v[i]->colisao(x, y)){
@@ -163,6 +177,7 @@ int ColideObjeto(vector<Control*> v, int x, int y){
     return -1;
 }
 
+//calculo de escala
 float CalculoEscala(int maior, int tela){
     if(maior == 0) return 1;
     return ((float)tela/maior);
@@ -171,7 +186,7 @@ float CalculoEscala(int maior, int tela){
 void GeraVetorQuantizacao(int fim){
     vector<int> quantiz;
     for(int i = 1; i < fim + 1; i++)
-        quantiz.push_back((2*i)+1);
+        quantiz.push_back((0.5*i)+1);
 
     for(int i = 0; i < qtd_amostras; i++)
         quantizacao.push_back((signed short)(dct[i]->valor / quantiz[i]));
@@ -197,6 +212,7 @@ void DCT(int N) {
         if (n < 0)
             n *=  -1;
 
+        //guarda o maior pra criar a escala do grafico DCT
         if (n > maior)
             maior = n;
     }
@@ -215,7 +231,6 @@ void IDCT(int N){
         for (int k = 0; k < N; ++k){
             if(k == 0) s = sqrt(0.5);
             else s = 1.0;
-            //sum += s * dct[k]->valor * cos(M_PI * (i + 0.5) * k / N);
             soma += s * quantizacao[k] * cos(M_PI * (i + 0.5) * k / N);
         }
         idct.push_back(new Bola((INIT_X+10) + i * distancia, (((signed short)(soma * sqrt(2.0 / N)))* 2) + MIDDLE_Y , RAIO, 0, 0, 1, (soma * sqrt(2.0 / N)), true));
@@ -231,6 +246,7 @@ void Diferenca(vector<Control*> v1, vector<Control*> v2){
     }
 }
 
+//gera uma nova onda
 void GeraFuncao(vector<Control*> v){
     signed short num;
     qtd_amostras = rand()%70 + 20;
@@ -253,6 +269,7 @@ void IDCT_2D(vector<Control*> v){
 
 }
 
+//colisao com os controles e acoes com cada um
 void ColisaoControles(int x, int y){
     int i;
     if((i = ColideObjeto(objetos, x, y)) != -1){
@@ -288,6 +305,7 @@ void ColisaoControles(int x, int y){
             objetos[i]->setSelected(!objetos[i]->getSelected());
             SetVisible(idct, objetos[i]->getSelected());
         }else if(objetos[i]->label.compare("Diferencas") == 0){
+            diferencas.clear();
             Diferenca(amostras, idct);
             SetVisible(diferencas, !objetos[i]->getSelected());
             objetos[i]->setSelected(!objetos[i]->getSelected());
@@ -303,7 +321,7 @@ void ColisaoControles(int x, int y){
         return;
     }
 }
-
+//verifica foco no objeto (bolas)
 void FocusObjeto(vector<Control*> v){
     for (int i = 0; i < v.size(); i++){
         if(v[i]->focus == true)
@@ -311,6 +329,7 @@ void FocusObjeto(vector<Control*> v){
     }
 }
 
+//colisao para fazer foco na bola
 void ColisaoBola(vector<Control*> v, int x, int y){
     int i = ColideObjeto(v, x, y);
     if(i != -1){
@@ -357,17 +376,6 @@ void render(){
 
 int main(void)
 {
-    /*ler_arq();
-    DCT(qtd_amostras);
-    GeraVetorQuantizacao(qtd_amostras);
-    IDCT(qtd_amostras);
-
-    cout<< "Originais\tDCT\t\tQuantizaçao\t\tIDCT" << endl;
-    for(int i = 0; i < qtd_amostras; i++){
-        quantizacao.push_back(0);
-        cout<< amostras[i]->valor << "\t\t" << dct[i]->valor << "\t\t"<< quantizacao[i] << "\t\t\t" << idct[i]->valor <<endl;
-    }*/
-
     CriaMenu();
     initCanvas(LARGURA, ALTURA);
     runCanvas();
