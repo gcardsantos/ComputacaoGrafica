@@ -1,0 +1,454 @@
+# depslib dependency file v1.0
+1452511122 source:d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1452512244 source:d:\ufsm\disciplinas\logica e algoritmo\programas\canvas2d\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"gl_canvas2d.h"
+
+1452511122 source:c:\tmp\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 c:\tmp\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\tmp\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\tmp\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\tmp\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1452512244 source:c:\tmp\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"gl_canvas2d.h"
+
+1452511122 source:c:\users\gabri\downloads\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 c:\users\gabri\downloads\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\gabri\downloads\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\gabri\downloads\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\users\gabri\downloads\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1452512244 source:c:\users\gabri\downloads\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"gl_canvas2d.h"
+
+1522990098 source:c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1523247762 source:c:\users\gabri\documents\computacaografica\testecanvas\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"gl_canvas2d.h"
+
+1523490816 source:d:\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 d:\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 d:\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 d:\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 d:\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1523841573 source:d:\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"Control.h"
+	"Bola.h"
+	"Botao.h"
+	"CheckBox.h"
+	"gl_canvas2d.h"
+	"Bmp.h"
+
+1522990098 source:c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1523411395 source:c:\users\gabri\documents\computacaografica\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"gl_canvas2d.h"
+
+1523490816 source:g:\la_11_canvas2d_win\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1452511058 g:\la_11_canvas2d_win\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 g:\la_11_canvas2d_win\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 g:\la_11_canvas2d_win\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 g:\la_11_canvas2d_win\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1523636566 source:g:\la_11_canvas2d_win\src\main_c.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"Control.h"
+	"Bola.h"
+	"Botao.h"
+	"CheckBox.h"
+	"gl_canvas2d.h"
+	"Bmp.h"
+
+1523555941 g:\la_11_canvas2d_win\include\control.h
+	<string>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1523555941 source:g:\la_11_canvas2d_win\src\control.cpp
+	"Control.h"
+
+1523547570 g:\la_11_canvas2d_win\include\botao.h
+	<Control.h>
+
+1523547617 source:g:\la_11_canvas2d_win\src\botao.cpp
+	"Botao.h"
+	"gl_canvas2d.h"
+
+1523548291 source:g:\la_11_canvas2d_win\src\bola.cpp
+	"Bola.h"
+	"gl_canvas2d.h"
+
+1523548291 g:\la_11_canvas2d_win\include\bola.h
+	<Control.h>
+
+1523549243 source:g:\la_11_canvas2d_win\src\checkbox.cpp
+	"CheckBox.h"
+	"gl_canvas2d.h"
+
+1523548194 g:\la_11_canvas2d_win\include\checkbox.h
+	<Control.h>
+
+1523549728 source:g:\la_11_canvas2d_win\src\funcoes.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"Control.h"
+	"Botao.h"
+	"Bola.h"
+	"CheckBox.h"
+	"gl_canvas2d.h"
+
+1523549429 g:\la_11_canvas2d_win\src\funcoes.h
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"Control.h"
+	"Botao.h"
+	"Bola.h"
+	"CheckBox.h"
+	"gl_canvas2d.h"
+
+1523549728 g:\la_11_canvas2d_win\src\funcoes.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	"Control.h"
+	"Botao.h"
+	"Bola.h"
+	"CheckBox.h"
+	"gl_canvas2d.h"
+
+1523548291 source:d:\la_11_canvas2d_win\src\bola.cpp
+	"Bola.h"
+	"gl_canvas2d.h"
+
+1523548291 d:\la_11_canvas2d_win\include\bola.h
+	<Control.h>
+
+1523555941 d:\la_11_canvas2d_win\include\control.h
+	<string>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1523547617 source:d:\la_11_canvas2d_win\src\botao.cpp
+	"Botao.h"
+	"gl_canvas2d.h"
+
+1523547570 d:\la_11_canvas2d_win\include\botao.h
+	<Control.h>
+
+1523549243 source:d:\la_11_canvas2d_win\src\checkbox.cpp
+	"CheckBox.h"
+	"gl_canvas2d.h"
+
+1523548194 d:\la_11_canvas2d_win\include\checkbox.h
+	<Control.h>
+
+1523555941 source:d:\la_11_canvas2d_win\src\control.cpp
+	"Control.h"
+
+1285803594 source:d:\la_11_canvas2d_win\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1285196298 d:\la_11_canvas2d_win\include\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1285803594 source:g:\la_11_canvas2d_win\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1285196298 g:\la_11_canvas2d_win\include\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1285196298 g:\la_11_canvas2d_win\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1523548291 g:\la_11_canvas2d_win\src\bola.h
+	<Control.h>
+
+1523547570 g:\la_11_canvas2d_win\src\botao.h
+	<Control.h>
+
+1523548194 g:\la_11_canvas2d_win\src\checkbox.h
+	<Control.h>
+
+1523555941 g:\la_11_canvas2d_win\src\control.h
+	<string>
+	<sstream>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
