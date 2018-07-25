@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lookat" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../__bin/Debug/lookat" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../" />
+				<Option object_output="../__obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../__bin/Release/lookat" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../" />
+				<Option object_output="../__obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-O2 -Wall" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="..\lib\freeglut.lib" />
+			<Add library="..\lib\libglu32.a" />
+			<Add library="..\lib\libopengl32.a" />
+		</Linker>
+		<Unit filename="include/Biela.h" />
+		<Unit filename="include/Cilindro.h" />
+		<Unit filename="include/Fps.h" />
+		<Unit filename="include/GL/glut.h" />
+		<Unit filename="include/Motor.h" />
+		<Unit filename="include/Pistao.h" />
+		<Unit filename="include/Vetor.h" />
+		<Unit filename="include/Virabrequim.h" />
+		<Unit filename="src/Biela.cpp" />
+		<Unit filename="src/Cilindro.cpp" />
+		<Unit filename="src/Fps.cpp" />
+		<Unit filename="src/Motor.cpp" />
+		<Unit filename="src/Pistao.cpp" />
+		<Unit filename="src/Vetor.cpp" />
+		<Unit filename="src/Virabrequim.cpp" />
+		<Unit filename="src/lookat.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

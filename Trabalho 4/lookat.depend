@@ -1,0 +1,312 @@
+# depslib dependency file v1.0
+1452511700 source:c:\users\gabri\documents\computacaografica\cg_demos\gl_7_lookat\src\lookat.cpp
+	<GL/glut.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\cg_demos\gl_7_lookat\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\gabri\documents\computacaografica\cg_demos\gl_7_lookat\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1530640027 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\lookat.cpp
+	<GL/glut.h>
+	"Cilindro.h"
+	"Virabrequim.h"
+	"Biela.h"
+	"Pistao.h"
+	"Fps.h"
+	"Vetor.h"
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<math.h>
+
+1426358040 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1530637233 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\biela.cpp
+	"Biela.h"
+	"Vetor.h"
+	"GL/glut.h"
+	"Vetor.h"
+	"Cilindro.h"
+	<math.h>
+	<stdio.h>
+
+1530593305 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\biela.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530639332 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\pistao.cpp
+	"Pistao.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+	<stdio.h>
+
+1530624386 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\pistao.h
+	"Vetor.h"
+	"Cilindro.h"
+	<vector>
+
+1530637149 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\virabrequim.cpp
+	"Virabrequim.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1530600983 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\virabrequim.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530636988 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\cilindro.cpp
+	"Cilindro.h"
+	"Vetor.h"
+	<stdio.h>
+	"GL/glut.h"
+
+1530227400 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\cilindro.h
+	"Vetor.h"
+	"GL/glut.h"
+
+1530589208 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\vetor.h
+
+1529789265 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\motor.cpp
+	"Motor.h"
+
+1529791719 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\motor.h
+	"Virabrequim.h"
+	"Pistao.h"
+	"Biela.h"
+
+1530589220 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\vetor.cpp
+	"Vetor.h"
+
+1530603299 source:c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\src\fps.cpp
+	"Fps.h"
+	<stdio.h>
+	<time.h>
+
+1530230346 c:\users\gabri\documents\computacaografica\trabalho4\trabalho4\include\fps.h
+	<time.h>
+
+1529789265 source:d:\trabalho4\src\motor.cpp
+	"Motor.h"
+
+1529791719 d:\trabalho4\include\motor.h
+	"Virabrequim.h"
+	"Pistao.h"
+	"Biela.h"
+
+1530600983 d:\trabalho4\include\virabrequim.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530227400 d:\trabalho4\include\cilindro.h
+	"Vetor.h"
+	"GL/glut.h"
+
+1530589208 d:\trabalho4\include\vetor.h
+
+1426358040 d:\trabalho4\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 d:\trabalho4\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1530624386 d:\trabalho4\include\pistao.h
+	"Vetor.h"
+	"Cilindro.h"
+	<vector>
+
+1530593305 d:\trabalho4\include\biela.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530589220 source:d:\trabalho4\src\vetor.cpp
+	"Vetor.h"
+
+1530637233 source:d:\trabalho4\src\biela.cpp
+	"Biela.h"
+	"Vetor.h"
+	"GL/glut.h"
+	"Vetor.h"
+	"Cilindro.h"
+	<math.h>
+	<stdio.h>
+
+1530636988 source:d:\trabalho4\src\cilindro.cpp
+	"Cilindro.h"
+	"Vetor.h"
+	<stdio.h>
+	"GL/glut.h"
+
+1530603299 source:d:\trabalho4\src\fps.cpp
+	"Fps.h"
+	<stdio.h>
+	<time.h>
+
+1530230346 d:\trabalho4\include\fps.h
+	<time.h>
+
+1530639332 source:d:\trabalho4\src\pistao.cpp
+	"Pistao.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+	<stdio.h>
+
+1530637149 source:d:\trabalho4\src\virabrequim.cpp
+	"Virabrequim.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1530791056 source:d:\trabalho4\src\lookat.cpp
+	<GL/glut.h>
+	"Cilindro.h"
+	"Virabrequim.h"
+	"Biela.h"
+	"Pistao.h"
+	"Fps.h"
+	"Vetor.h"
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<math.h>
+
+1530637233 source:g:\trabalho4\src\biela.cpp
+	"Biela.h"
+	"Vetor.h"
+	"GL/glut.h"
+	"Vetor.h"
+	"Cilindro.h"
+	<math.h>
+	<stdio.h>
+
+1530593305 g:\trabalho4\include\biela.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530227400 g:\trabalho4\include\cilindro.h
+	"Vetor.h"
+	"GL/glut.h"
+
+1530589208 g:\trabalho4\include\vetor.h
+
+1426358040 g:\trabalho4\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 g:\trabalho4\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1530636988 source:g:\trabalho4\src\cilindro.cpp
+	"Cilindro.h"
+	"Vetor.h"
+	<stdio.h>
+	"GL/glut.h"
+
+1530603299 source:g:\trabalho4\src\fps.cpp
+	"Fps.h"
+	<stdio.h>
+	<time.h>
+
+1530230346 g:\trabalho4\include\fps.h
+	<time.h>
+
+1530791056 source:g:\trabalho4\src\lookat.cpp
+	<GL/glut.h>
+	"Cilindro.h"
+	"Virabrequim.h"
+	"Biela.h"
+	"Pistao.h"
+	"Fps.h"
+	"Vetor.h"
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<math.h>
+
+1530600983 g:\trabalho4\include\virabrequim.h
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+
+1530624386 g:\trabalho4\include\pistao.h
+	"Vetor.h"
+	"Cilindro.h"
+	<vector>
+
+1529789265 source:g:\trabalho4\src\motor.cpp
+	"Motor.h"
+
+1529791719 g:\trabalho4\include\motor.h
+	"Virabrequim.h"
+	"Pistao.h"
+	"Biela.h"
+
+1530589220 source:g:\trabalho4\src\vetor.cpp
+	"Vetor.h"
+
+1530637149 source:g:\trabalho4\src\virabrequim.cpp
+	"Virabrequim.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<math.h>
+	<vector>
+	<stdio.h>
+
+1530791114 source:g:\trabalho4\src\pistao.cpp
+	"Pistao.h"
+	"Cilindro.h"
+	"Vetor.h"
+	<vector>
+	<stdio.h>
+
